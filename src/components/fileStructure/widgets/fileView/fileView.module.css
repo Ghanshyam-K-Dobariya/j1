@@ -1,0 +1,35 @@
+.filesContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.directoryView {
+  background: #9dc1ea;
+  cursor: pointer;
+}
+
+.directoryView:hover {
+  width: 120px;
+  border: 1px solid #8897ff;
+  box-sizing: border-box;
+}
+
+.fileView {
+  background: #b8b8b8;
+}
+
+.directoryView, .fileView {
+  height: 120px;
+  width: 120px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.title {
+  width: 100%;
+  background: white;
+  text-align: center;
+  padding-top: 5px;
+}

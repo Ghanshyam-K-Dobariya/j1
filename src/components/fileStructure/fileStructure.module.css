@@ -1,0 +1,9 @@
+.goBackHeader {
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.hide {
+  color: #bdbcbc;
+  pointer-events: none;
+}
